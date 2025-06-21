@@ -1,0 +1,22 @@
+# This file configures the OMPL planning pipeline
+# The pipeline name is 'ompl' and can be referenced by this name
+ompl:
+  # The planning plugin to use for motion planning
+  planning_plugin: ompl_interface/OMPLPlanner
+
+  # The list of planning request adapter plugins.
+  # These are plugins that post-process the motion plan produced by OMPL.
+  # The order of the plugins is important.
+  request_adapters: "default_planning_request_adapters/FixWorkspaceBounds default_planning_request_adapters/FixStartStateBounds default_planning_request_adapters/AddTimeOptimalParameterization"
+
+  # The start state is considered valid if it is within a certain tolerance of the goal.
+  start_state_max_bounds_error: 0.1
+
+# This section defines the specific planners that can be used by the pipeline
+planner_configs:
+  RRTConnect:
+    type: geometric::RRTConnect
+    range: 0.0
+    goal_bias: 0.05
+  PRMstar:
+    type: geometric::PRMstar

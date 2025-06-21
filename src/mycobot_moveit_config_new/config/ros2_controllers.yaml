@@ -29,6 +29,7 @@ robot_controller:
     state_interfaces:
       - position
       - velocity
+    interpolation_method: splines
 gripper_action_controller:
   # type: position_controllers/GripperActionController
   ros__parameters:
