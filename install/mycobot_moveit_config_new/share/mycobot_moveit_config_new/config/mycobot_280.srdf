@@ -27,6 +27,22 @@
         <link name="gripper_right1"/>
         <link name="gripper_left1"/>
     </group>
+    <group name="arm_with_gripper">
+        <joint name="base_link_to_link1"/>
+        <joint name="link1_to_link2"/>
+        <joint name="link3_to_link4"/>
+        <joint name="link2_to_link3"/>
+        <joint name="link4_to_link5"/>
+        <joint name="link5_to_link6"/>
+        <joint name="link6_to_flange"/>
+        <joint name="flange_to_gripper_base"/>
+        <joint name="gripper_base_to_gripper_left2"/>
+        <joint name="gripper_base_to_gripper_right2"/>
+        <joint name="gripper_base_to_gripper_right3"/>
+        <joint name="gripper_right3_to_gripper_right1"/>
+        <joint name="gripper_controller"/>
+        <joint name="gripper_left3_to_gripper_left1"/>
+    </group>
     <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
     <end_effector name="gripper" parent_link="flange" group="gripper" parent_group="robotarm"/>
     <!--VIRTUAL JOINT: Purpose: this element defines a virtual joint between a robot link and an external frame of reference (considered fixed with respect to the robot)-->

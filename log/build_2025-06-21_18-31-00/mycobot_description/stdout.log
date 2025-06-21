@@ -1,0 +1,106 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found urdf_tutorial: 1.1.0 (/opt/ros/humble/share/urdf_tutorial/cmake)
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/anish/ros2_mycobot_ws/build/mycobot_description
+-- Install configuration: ""
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/launch
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/launch/display_mycobot.launch.py
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/urdf
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_urdf.xacro
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/urdf/adaptive_gripper.urdf.xacro
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_wrapper.xacro
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/your_robot
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/your_robot/visual
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/your_robot/visual/d435
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/your_robot/visual/d435/visual
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/your_robot/visual/d435/visual/d435.stl
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/your_robot/visual/adaptive_gripper
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/your_robot/visual/adaptive_gripper/visual
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/your_robot/visual/adaptive_gripper/visual/gripper_right3.dae
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/your_robot/visual/adaptive_gripper/visual/gripper_base.dae
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/your_robot/visual/adaptive_gripper/visual/gripper_left2.dae
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/your_robot/visual/adaptive_gripper/visual/gripper_left3.dae
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/your_robot/visual/adaptive_gripper/visual/gripper_right1.dae
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/your_robot/visual/adaptive_gripper/visual/gripper_left1.dae
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/your_robot/visual/adaptive_gripper/visual/gripper_right2.dae
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/your_robot/visual/mycobot_280
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/your_robot/visual/mycobot_280/visual
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/your_robot/visual/mycobot_280/visual/link1.png
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/your_robot/visual/mycobot_280/visual/link4.png
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/your_robot/visual/mycobot_280/visual/link7.png
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/your_robot/visual/mycobot_280/visual/link2.png
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/your_robot/visual/mycobot_280/visual/link5.dae
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/your_robot/visual/mycobot_280/visual/link5.png
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/your_robot/visual/mycobot_280/visual/link6.png
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/your_robot/visual/mycobot_280/visual/link3.png
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/your_robot/visual/mycobot_280/visual/link3.dae
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/your_robot/visual/mycobot_280/visual/link1.dae
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/your_robot/visual/mycobot_280/visual/link6.dae
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/your_robot/visual/mycobot_280/visual/link2.dae
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/your_robot/visual/mycobot_280/visual/link7.dae
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/your_robot/visual/mycobot_280/visual/suit_env.dae
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/your_robot/visual/mycobot_280/visual/link4.dae
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/your_robot/visual/g_shape_base_v2_0
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/your_robot/visual/g_shape_base_v2_0/visual
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/your_robot/visual/g_shape_base_v2_0/visual/base_link.dae
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_right3.dae
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_base.dae
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_left2.dae
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_left3.dae
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_right1.dae
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_left1.dae
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_right2.dae
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link1.png
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link4.png
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link7.png
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link2.png
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link5.dae
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link5.png
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link6.png
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link3.png
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link3.dae
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link1.dae
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link6.dae
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link2.dae
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link7.dae
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/suit_env.dae
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link4.dae
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/ament_index/resource_index/package_run_dependencies/mycobot_description
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/ament_index/resource_index/parent_prefix_path/mycobot_description
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/environment/ament_prefix_path.sh
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/environment/ament_prefix_path.dsv
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/environment/path.sh
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/environment/path.dsv
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/local_setup.bash
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/local_setup.sh
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/local_setup.zsh
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/local_setup.dsv
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/package.dsv
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/ament_index/resource_index/packages/mycobot_description
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/cmake/mycobot_descriptionConfig.cmake
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/cmake/mycobot_descriptionConfig-version.cmake
+-- Installing: /home/anish/ros2_mycobot_ws/install/mycobot_description/share/mycobot_description/package.xml

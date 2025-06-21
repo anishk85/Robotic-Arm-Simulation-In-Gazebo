@@ -1,2 +1,0 @@
-Invoking command in '/home/anish/ros2_mycobot_ws/build/mycobot_moveit_config_new': /usr/bin/cmake /home/anish/ros2_mycobot_ws/src/mycobot_moveit_config_new -DCMAKE_INSTALL_PREFIX=/home/anish/ros2_mycobot_ws/install/mycobot_moveit_config_new
-Invoked command in '/home/anish/ros2_mycobot_ws/build/mycobot_moveit_config_new' returned '1': /usr/bin/cmake /home/anish/ros2_mycobot_ws/src/mycobot_moveit_config_new -DCMAKE_INSTALL_PREFIX=/home/anish/ros2_mycobot_ws/install/mycobot_moveit_config_new
