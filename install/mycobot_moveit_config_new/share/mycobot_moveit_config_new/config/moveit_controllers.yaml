@@ -5,6 +5,7 @@ moveit_controller_manager: moveit_simple_controller_manager/MoveItSimpleControll
 moveit_simple_controller_manager:
   controller_names:
     - robotarm_controller
+    - gripper_controller
 
   robotarm_controller:
     type: FollowJointTrajectory
@@ -15,3 +16,9 @@ moveit_simple_controller_manager:
       - link4_to_link5
       - link5_to_link6
       - link6_to_flange
+  gripper_controller:
+    type: GripperCommand
+    joints:
+      - gripper_controller
+    action_ns: gripper_cmd
+    default: true

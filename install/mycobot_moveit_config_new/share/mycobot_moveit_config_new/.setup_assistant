@@ -6,8 +6,8 @@ moveit_setup_assistant_config:
     relative_path: config/mycobot_280.srdf
   package_settings:
     author_name: ""
-    author_email: ""
-    generated_timestamp: 1750447193
+    author_email: you@example.com
+    generated_timestamp: 1750451057
   control_xacro:
     command:
       - position

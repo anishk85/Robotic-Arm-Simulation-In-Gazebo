@@ -23,8 +23,8 @@
         <link name="gripper_left2"/>
         <link name="gripper_right2"/>
         <link name="gripper_right3"/>
-        <link name="gripper_right1"/>
         <link name="gripper_left3"/>
+        <link name="gripper_right1"/>
         <link name="gripper_left1"/>
     </group>
     <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
