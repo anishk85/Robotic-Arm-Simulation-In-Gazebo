@@ -8,7 +8,14 @@
     <!-- Import control_xacro -->
     <xacro:include filename="mycobot_280.ros2_control.xacro" />
 
+    <!-- Instantiate the ros2_control xacro to generate the <ros2_control> tag -->
+    <xacro:mycobot_280_ros2_control name="GazeboSystem" initial_positions_file="$(arg initial_positions_file)"/>
 
-    <xacro:mycobot_280_ros2_control name="FakeSystem" initial_positions_file="$(arg initial_positions_file)"/>
+    <!-- Gazebo Classic Plugin for ros2_control -->
+    <gazebo>
+        <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
+            <parameters>$(find mycobot_moveit_config_new)/config/ros2_controllers.yaml</parameters>
+        </plugin>
+    </gazebo>
 
 </robot>

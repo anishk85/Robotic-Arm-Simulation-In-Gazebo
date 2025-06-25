@@ -102,7 +102,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mycobot_moveit_config_new" TYPE DIRECTORY FILES "/home/anish/ros2_mycobot_ws/src/mycobot_moveit_config_new/launch" REGEX "/setup\\_assistant\\.launch$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mycobot_moveit_config_new" TYPE DIRECTORY FILES
+    "/home/anish/ros2_mycobot_ws/src/mycobot_moveit_config_new/launch"
+    "/home/anish/ros2_mycobot_ws/src/mycobot_moveit_config_new/config"
+    REGEX "/setup\\_assistant\\.launch$" EXCLUDE)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

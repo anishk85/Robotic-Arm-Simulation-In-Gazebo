@@ -33,4 +33,16 @@
 /home/anish/ros2_mycobot_ws/install/mycobot_moveit_config_new/share/mycobot_moveit_config_new/config/mycobot_280.urdf.xacro
 /home/anish/ros2_mycobot_ws/install/mycobot_moveit_config_new/share/mycobot_moveit_config_new/config/kinematics.yaml
 /home/anish/ros2_mycobot_ws/install/mycobot_moveit_config_new/share/mycobot_moveit_config_new/config/pilz_cartesian_limits.yaml
+/home/anish/ros2_mycobot_ws/install/mycobot_moveit_config_new/share/mycobot_moveit_config_new/config/initial_positions.yaml
+/home/anish/ros2_mycobot_ws/install/mycobot_moveit_config_new/share/mycobot_moveit_config_new/config/moveit_controllers.yaml
+/home/anish/ros2_mycobot_ws/install/mycobot_moveit_config_new/share/mycobot_moveit_config_new/config/ompl_planning.yaml
+/home/anish/ros2_mycobot_ws/install/mycobot_moveit_config_new/share/mycobot_moveit_config_new/config/joint_limits.yaml
+/home/anish/ros2_mycobot_ws/install/mycobot_moveit_config_new/share/mycobot_moveit_config_new/config/sensors_3d.yaml
+/home/anish/ros2_mycobot_ws/install/mycobot_moveit_config_new/share/mycobot_moveit_config_new/config/mycobot_280.srdf
+/home/anish/ros2_mycobot_ws/install/mycobot_moveit_config_new/share/mycobot_moveit_config_new/config/moveit.rviz
+/home/anish/ros2_mycobot_ws/install/mycobot_moveit_config_new/share/mycobot_moveit_config_new/config/ros2_controllers.yaml
+/home/anish/ros2_mycobot_ws/install/mycobot_moveit_config_new/share/mycobot_moveit_config_new/config/mycobot_280.ros2_control.xacro
+/home/anish/ros2_mycobot_ws/install/mycobot_moveit_config_new/share/mycobot_moveit_config_new/config/mycobot_280.urdf.xacro
+/home/anish/ros2_mycobot_ws/install/mycobot_moveit_config_new/share/mycobot_moveit_config_new/config/kinematics.yaml
+/home/anish/ros2_mycobot_ws/install/mycobot_moveit_config_new/share/mycobot_moveit_config_new/config/pilz_cartesian_limits.yaml
 /home/anish/ros2_mycobot_ws/install/mycobot_moveit_config_new/share/mycobot_moveit_config_new/.setup_assistant
