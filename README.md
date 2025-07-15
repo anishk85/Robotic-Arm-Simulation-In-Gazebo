@@ -11,11 +11,11 @@ The workspace includes:
 - **ROS2 controllers** for joint and gripper control
 - **Teleop key control** for manual robot operation
 
-## Prerequisites
+## Demo Video
 
-- **ROS2 Humble** (Ubuntu 22.04)
-- **Gazebo Classic** (gazebo-ros packages)
-- **MoveIt2** for ROS2 Humble
+Watch the demonstration of the MyCobot 280 ROS2 MoveIt Workspace in action:
+
+[![Demo Video](https://img.youtube.com/vi/QXOHVTIC47E/0.jpg)](https://www.youtube.com/watch?v=QXOHVTIC47E)
 
 ### Installation
 
